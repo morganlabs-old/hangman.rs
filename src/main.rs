@@ -8,5 +8,5 @@ fn main() {
     println!("1 letter wrong = 1 life     1 word guess wrong = 2 lifes\n");
 
     let game: Game = Game::new();
-    dbg!(game);
+    game.start();
 }
